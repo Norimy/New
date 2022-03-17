@@ -10,19 +10,21 @@ using System.Windows.Forms;
 
 namespace _1
 {
-    public partial class Form4 : Form
+    public partial class LoginForm : Form
     {
-        public Form4()
+        public LoginForm()
         {
             InitializeComponent();
         }
 
-        private void Form5_Load(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Team team = new Team();
-            // label1.Text = team[0].Name;
-            for (int i = 0; 1 < 5; i++)
-                this.Controls["label" + i].Text = team.Name;
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

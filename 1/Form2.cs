@@ -30,5 +30,11 @@ namespace _1
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form TeamForm = new Form4();
+            TeamForm.Show();
+        }
     }
 }
