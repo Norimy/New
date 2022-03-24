@@ -17,7 +17,7 @@ namespace _1
             InitializeComponent();
         }
 
-        private void Form5_Load(object sender, EventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
             Team team = new Team();
             // label1.Text = team[0].Name;

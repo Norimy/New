@@ -85,5 +85,10 @@ namespace _1
             pictureBox2.Load("../../../picture/" + imgList[index + 1]);
             pictureBox3.Load("../../../picture/" + imgList[index + 2]);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
