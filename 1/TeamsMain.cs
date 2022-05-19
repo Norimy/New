@@ -10,19 +10,16 @@ using System.Windows.Forms;
 
 namespace _1
 {
-    public partial class Form4 : Form
+    public partial class TeamsMain : Form
     {
-        public Form4()
+        public TeamsMain()
         {
             InitializeComponent();
         }
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            Team team = new Team();
-            // label1.Text = team[0].Name;
-            for (int i = 0; 1 < 5; i++)
-                this.Controls["label" + i].Text = team.Name;
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -48,6 +45,41 @@ namespace _1
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel47_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void linkLabel48_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

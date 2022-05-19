@@ -1,6 +1,6 @@
 ﻿namespace _1
 {
-    partial class Form1
+    partial class NBAManagementSystem
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -75,7 +75,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(100, 9);
+            this.label1.Location = new System.Drawing.Point(111, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(591, 55);
             this.label1.TabIndex = 2;

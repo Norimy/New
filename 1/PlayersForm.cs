@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _1
 {
-    public partial class Form3 : Form
+    public partial class PlayersForm : Form
     {
-        public Form3()
+        public PlayersForm()
         {
             InitializeComponent();
         }
@@ -29,6 +29,16 @@ namespace _1
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void PlayersForm_Load(object sender, EventArgs e)
         {
 
         }

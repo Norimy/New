@@ -6,18 +6,35 @@ using System.Threading.Tasks;
 
 namespace _1
 {
-    internal class Team
+    class Team
     {
-        int Teamld;
+        public int TeamId;
         public string Name, Abbr, Logo;
 
 
         public void setTeamall(int Teamld, string Name, string Abbr, string Logo)
         {
-            this.Teamld = Teamld;
+            this.TeamId = TeamId;
             this.Name = Name;
             this.Abbr = Abbr;
             this.Logo = Logo;
+        }
+
+        public int GetTeamId()
+        {
+            return this.TeamId;
+        }
+        public string GetTeamName()
+        {
+            return this.Name;
+        }
+        public string GetTeamAbbr()
+        {
+            return this.Abbr;
+        }
+        public string GetTeamLogo()
+        {
+            return this.Logo;
         }
     }
 }

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace _1
 {
-    public partial class Form1 : Form
+    public partial class NBAManagementSystem : Form
     {
         String[] imgList = new String[]
                       {"0.jpg","1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg", };
@@ -19,7 +19,7 @@ namespace _1
 
         //imgList
         Country[] countries = new Country[5];
-        public Form1()
+        public NBAManagementSystem()
         {
             InitializeComponent();
             pictureBox1.Load("../../../picture/" + imgList[0]);
@@ -56,7 +56,7 @@ namespace _1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form visitorForm = new Form2();
+            Form visitorForm = new VisitorMenu();
             visitorForm.Show();
             
          

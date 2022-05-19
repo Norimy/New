@@ -1,6 +1,6 @@
 ﻿namespace _1
 {
-    partial class Form3
+    partial class PlayersForm
     {
         /// <summary>
         /// Required designer variable.
@@ -48,7 +48,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(512, 24);
+            this.button1.Location = new System.Drawing.Point(710, 25);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -78,17 +78,18 @@
             this.label2.Text = "NBA Management System";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // Form3
+            // PlayersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 336);
+            this.ClientSize = new System.Drawing.Size(797, 441);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
+            this.Name = "PlayersForm";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.PlayersForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

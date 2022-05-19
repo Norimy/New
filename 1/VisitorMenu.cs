@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace _1
 {
-    public partial class Form2 : Form
+    public partial class VisitorMenu : Form
     {
-        public Form2()
+        public VisitorMenu()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form PlayersForm = new Form3();
+            Form PlayersForm = new PlayersForm();
             PlayersForm.Show();
         }
 
@@ -33,7 +33,7 @@ namespace _1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form TeamForm = new Form4();
+            Form TeamForm = new TeamsMain();
             TeamForm.Show();
         }
     }

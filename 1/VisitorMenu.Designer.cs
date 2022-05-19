@@ -1,6 +1,6 @@
 ﻿namespace _1
 {
-    partial class Form2
+    partial class VisitorMenu
     {
         /// <summary>
         /// Required designer variable.
